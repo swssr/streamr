@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: Black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-top: 25px;
+  align-items: center;
+}
+#logo {
+  font-size: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+form {
+  background: #242121;
+  width: 700px;
+  height: 56px;
+  display: flex;
+}
+input {
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+}
+button {
+  padding: 8px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  background-color: #6008b9;
+  color: White;
+  transition: 500ms;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button span {
+  margin-right: 8px;
+}
+#headtext {
+  text-align: center;
+  margin-left: 0px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+header {
+  height: 60vh;
+  width: 100vw;
+}
+.profile {
+  width: 150px;
+  height: 20px;
+  margin-left: 100px;
+}
+.propic {
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  margin-top: 70px;
+}
+main {
+  /* margin-left: 250px; */
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #242121;
+  /* display: flex; */
+  display: grid;
+  gap: 16px;
+  padding: 8px;
+  border-radius: 8px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80vw;
+  /* back2ground: green; */
+  gap: 32px;
+  margin-top: 50px;
+}
+.card {
+  /* background: red; */
+  /* width: 300px */
+}
+img {
+  width: 100%;
+  transition: 500ms;
+  border-radius: 20px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.caption {
+  color: white;
+}
+.icon {
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
